@@ -65,6 +65,7 @@ header, footer{
 footer{
     margin-top: 1rem;
 }
+
 /*Responsividade para celulares*/
 @media (max-width: 600px){
     .Carrossel{
