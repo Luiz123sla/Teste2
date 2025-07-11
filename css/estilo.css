@@ -65,3 +65,12 @@ header, footer{
 footer{
     margin-top: 1rem;
 }
+/*Responsividade para celulares*/
+@media (max-width: 600px){
+    .Carrossel{
+        flex-direction: column;
+    }
+    .Carrossel figure{
+        min-width: 100%;
+    }
+}
