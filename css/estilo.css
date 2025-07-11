@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header, footer{
+    background-color: #0a1b30;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.esquerda{
+    width: 20%;
+    background-color: #86b9d0;
+    padding: 1rem;
+}
+.conteudo{
+    width: 20%;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+
+#img-codigos{
+    width: 75%;
+    border: 2px solid #86b9d0;
+    float: left;
+    margin: 5px;
+}
+
+    
+/* Carrossel servicos.html */
+.Carrossel{
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    scroll-snap-type: x mandatory;
+    padding: 1rem 0;
+}
+.Carrossel figure{
+    min-width: 300px;
+    scroll-snap-align: center;
+    text-align: center;
+}
+.Carrossel img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.direita{
+    width: 55%;
+    background-color: #86b9d0;
+    padding: rem;
+}
+
+footer{
+    margin-top: 1rem;
+}
+
+/*Responsividade para celulares*/
+@media (max-width: 600px){
+    .Carrossel{
+        flex-direction: column;
+    }
+    .Carrossel figure{
+        min-width: 100%;
+    }
+}
